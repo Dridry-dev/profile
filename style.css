@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* ***************** SRTUCTURE  ***************** */
+
+body{
+  font-family: Lora;
+  background-color: #FFF8EA;
+  padding: 10px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card{
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 15px;
+  border-radius: 4%;
+  border: 1px solid #9E7676;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* ***************** Textes  ***************** */
+
+h1 {
+  font-family: Roboto;
+  color: #815B5B;
+  text-align: center;
+}
+
+h2 {
+  font-family: Roboto;
+  color: #9E7676;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: Lora;
+  color: rgba(50,50,50);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ***************** Images  ***************** */
+
+#profile-pic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px rgba(180,180,180);
+}
+
+/* ***************** Liens  ***************** */
+
+a {
+  text-decoration: none;
+  font-family: Roboto;
+  text-align: center;
+  display: inline-block;
+}
+
+#btn-brown {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  background-color: #594545;
+  border-radius: 5%;
+  padding: 10px 20px;
+}
+
+#btn-brown:hover{
+  background-color: #9E7676;
+}
+
+.logo-list li a{
+  color: #594545;
+  font-size: 30px;
+}
+
+/* ***************** Listes  ***************** */
+
+.logo-list li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul{
+  padding: 0px;
+  list-style: none;
+}
+
+/* ***************** Queries  ***************** */
+
+/* Pour un écran < 960px, cette classe CSS s'applique */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #profile-pic{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Pour un écran < 720px, cette classe CSS s'applique */
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #profile-pic{
+    width: 125px;
+    height: 125px;
+  }
+  .logo-list li a{
+    font-size: 25px;
+  }
+}
+
+/* Pour un écran < 540px, cette classe CSS s'applique */
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 12px;
+    }
+    #profile-pic{
+      width: 100px;
+      height: 100px;
+    }
+    .logo-list li a{
+      font-size: 20px;
+    }
+  }
